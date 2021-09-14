@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400&display=swap");
+article {
+  font-family: "Karla", sans-serif;
+  padding: 0 50%;
+}
+img {
+  width: 100%;
+}
+
+article {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  justify-content: center;
+  align-items: center;
+}
